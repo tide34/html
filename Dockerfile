@@ -1,3 +1,3 @@
 FROM httpd
-COPY ./index.html /usr/local/apache2/htdocs/  && COPY ./pic.png /usr/local/apache2/htdocs/
+COPY ./index.html /htdocs/  && COPY ./pic.png /htdocs/
 EXPOSE 80
